@@ -1,0 +1,11 @@
+type:Wall
+name: Game Wall
+description: Wery wery WERY armored wall
+requirements: [
+  game/6
+]
+health: 5200
+size:1
+category:defense
+research: thorium-wall
+craftTime: 240

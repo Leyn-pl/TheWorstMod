@@ -1,0 +1,11 @@
+type:Wall
+name: Large Iron Wall
+description: Basic iron wall 2x2
+requirements: [
+     iron-ignot/24
+]
+health: 2240
+size:2
+category:defense
+research: iron-wall
+craftTime: 240

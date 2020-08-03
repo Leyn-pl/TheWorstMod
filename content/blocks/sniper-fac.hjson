@@ -1,0 +1,23 @@
+name: Sniper Factory
+description: Makes Snipers
+type: UnitFactory
+unitType: sniper
+size: 2
+produceTime: 350
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      graphite/24
+      titanium/20
+    ]
+  }
+}
+category: units
+research: titan-factory
+requirements: [
+  iron-ignot/120
+  thorian/30
+  silicon/70
+  titanium/60
+]

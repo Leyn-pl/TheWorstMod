@@ -1,0 +1,11 @@
+type:Wall
+name: Large Game Wall
+description: Wery wery wery armored wall 2x2
+requirements: [
+  game/24
+]
+health: 20800
+size:2
+category:defense
+research: game-wall
+craftTime: 480

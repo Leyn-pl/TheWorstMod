@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Bottle Crafter
+description: The bottles will be very durable
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 240
+updateEffect: smeltsmoke
+consumes: {
+  power: 2.4
+  items: {
+    items: [
+      metaglass/2
+    ]
+  }
+}
+requirements: [
+  lead/80
+  silicon/20
+  iron-ignot/30
+  metaglass/20
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.2
+outputItem: bottle/1

@@ -1,0 +1,16 @@
+name: Core "Reason"
+description: More items? YES!
+type: CoreBlock
+itemCapacity: 1524000
+breakable: true
+health: 120000
+size: 8
+category: effect
+requirements: [
+  titanium/325220
+  thorian/1125890
+  silicon/2310450
+  metaglass/737630
+  surge-alloy/2504320
+]
+research: core-base

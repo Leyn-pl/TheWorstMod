@@ -1,0 +1,6 @@
+type: resource
+name: My Dust
+description: All game?
+hardness: 4
+cost: 0.1
+color: 9e6d00

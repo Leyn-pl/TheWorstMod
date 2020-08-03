@@ -1,0 +1,74 @@
+type:  DoubleTurret
+name: Double Minigan
+description: Two minigans?
+health: 1200
+size: 4
+reload: 1.5
+targetAir:true
+targetGround:true
+range: 320
+craftTime: 100
+inaccuracy: 5
+outlineIcon:false
+rotatespeed: 4
+shots: 1
+ammo: {
+    titanium: {
+		recoil: 2
+		keepVelocity: true
+		knockback: 1
+		speed: 8
+		damage: 5
+		splashDamage:2
+		splashDamageRadius:30
+		bulletWidth: 2
+		bulletHeight: 2
+		ammoMultiplier: 10
+	}
+	thorium: {
+		recoil: 2
+		keepVelocity: true
+		knockback: 1
+		speed: 12
+		damage: 7
+		splashDamage:4
+		splashDamageRadius:30
+		bulletWidth: 2
+		bulletHeight: 2
+		ammoMultiplier: 10
+	}
+	thorian: {
+		recoil: 5
+		keepVelocity: true
+		knockback: 2
+		speed: 20
+		damage: 9
+		splashDamage:9
+		splashDamageRadius:120
+		bulletWidth: 4
+		bulletHeight: 4
+		ammoMultiplier: 10
+	}
+	ammo: {
+		recoil: 1
+		keepVelocity: true
+		knockback: 1
+		speed: 40
+		damage: 35
+		splashDamage:18
+		splashDamageRadius:80
+		bulletWidth: 4
+		bulletHeight: 4
+		ammoMultiplier: 15
+	}
+}
+requirements: [
+	titanium/500
+	thorium/ 400
+	iron-ignot/ 300
+	silicon/90
+	surge-alloy/80
+	metaglass/80
+]
+category: turret
+research: minigan

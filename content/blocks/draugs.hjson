@@ -1,0 +1,22 @@
+name: Small Town Draugs
+description: Makes MORE DRAUGS!
+type: UnitFactory
+unitType: draug
+size: 8
+produceTime: 120
+maxSpawn: 64
+consumes: {
+  power: 1.2
+  items: {
+    items: [
+      silicon/2
+    ]
+  }
+}
+category: units
+research: draug-factory
+requirements: [
+  silicon/100
+  copper/1200
+  lead/200
+]

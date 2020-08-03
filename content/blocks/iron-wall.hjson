@@ -1,0 +1,11 @@
+type:Wall
+name: Iron Wall
+description: Basic iron wall
+requirements: [
+     iron-ignot/6
+]
+health: 560
+size:1
+category:defense
+research: titanium-wall
+craftTime: 120

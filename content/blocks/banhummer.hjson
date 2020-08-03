@@ -1,0 +1,34 @@
+type:  ItemTurret
+name: BANHAMMER 40000
+description: BAN-BAN-BAN-BAN-BAN-BAN-BAN-BAN-BAN-BAN-BAN-BAN-BAN-BAN-BAN-BAN-BAN-BAN-BAN-BAN
+health: 2400
+size: 4
+reload: 180
+targetAir:true
+targetGround:true
+range: 400
+craftTime: 480
+inaccuracy: 0.1
+outlineIcon:true
+rotatespeed: 2
+shots: 1024
+ammo: {
+    ban: {
+		recoil: 1
+		keepVelocity: false
+		knockback: 8
+		speed: 12
+		damage: 512
+		splashDamage:512
+		splashDamageRadius:10
+		bulletWidth: 80
+		bulletHeight: 80
+		ammoMultiplier: 1
+	}
+}
+requirements: [
+	surge-alloy/600000
+
+]
+category: turret
+research: tsunami

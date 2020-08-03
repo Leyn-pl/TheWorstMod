@@ -1,0 +1,6 @@
+type: resource
+name: Iron
+description: Just iron
+hardness: 3
+cost: 1
+color: c1bfba

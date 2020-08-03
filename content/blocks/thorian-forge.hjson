@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Thorianium Forge
+description: Combines thorium and titanium to produce thorianium.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      thorium/3
+      titanium/2
+    ]
+  }
+}
+requirements: [
+  lead/50
+  thorium/80
+  silicon/60
+  titanium/50
+]
+category: crafting
+research: blast-mixer
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: thorian/2

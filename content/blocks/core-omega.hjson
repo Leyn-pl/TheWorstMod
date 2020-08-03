@@ -1,0 +1,15 @@
+name: Core "Omega"
+description: Please do not build it...
+type: CoreBlock
+itemCapacity: 42000
+breakable: true
+health: 26000
+size: 6
+category: effect
+requirements: [
+  titanium/35220
+  thorian/125890
+  silicon/230450
+  surge-alloy/250320
+]
+research: minicore

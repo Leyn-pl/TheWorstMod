@@ -1,0 +1,5 @@
+type: floor
+name: My Dust
+itemDrop: my-dust
+variants: 3
+playerUnmineable: true

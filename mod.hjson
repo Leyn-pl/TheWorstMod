@@ -1,0 +1,6 @@
+name: "theworstmod"
+displayName: "The[red]Worst[]Mod" //what displays in the mod selection menu
+author: "[orange]<[]LEYN[orange]>[]"
+description: "oh no wth y lAyn"
+version: "2.2"
+minGameVersion: "104"

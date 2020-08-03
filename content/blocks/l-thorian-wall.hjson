@@ -1,0 +1,12 @@
+type:Wall
+name: Large Torianium Wall
+description: Wery armored wall 2x2
+requirements: [
+  thorian/20
+  surge-alloy/8
+]
+health: 4960
+size:2
+category:defense
+research: thorian-wall
+craftTime: 240

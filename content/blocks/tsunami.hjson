@@ -1,0 +1,39 @@
+type:  ItemTurret
+name: Tsunami
+description: WAАААVES!!!!
+health: 4200
+size: 4
+reload: 180
+targetAir:true
+targetGround:true
+range: 200
+craftTime: 1200
+inaccuracy: 0.1
+outlineIcon:true
+rotatespeed: 2
+shots: 10
+ammo: {
+    minitsunami: {
+		recoil: 1
+		keepVelocity: false
+		knockback: 8
+		speed: 4
+		damage: 512
+		splashDamage:512
+		splashDamageRadius:120
+		bulletWidth: 120
+		bulletHeight: 40
+		ammoMultiplier: 1
+	}
+}
+requirements: [
+	titanium/890
+	thorium/ 700
+	iron-ignot/ 600
+	silicon/300
+	surge-alloy/240
+	metaglass/90
+	thorian/120
+]
+category: turret
+research: meltdown

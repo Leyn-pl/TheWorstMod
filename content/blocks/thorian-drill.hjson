@@ -1,0 +1,22 @@
+name: Thorianium Drill
+description: A very strange drill.
+type: Drill
+size: 4
+tier: 7
+drillTime: 120
+consumes: {
+  power: 3
+  liquid: {
+    liquid: water
+    amount: 0.1
+    booster: true
+  }
+}
+requirements: [
+  thorian/30
+  silicon/50
+  graphite/30
+  titanium/60
+]
+category: production
+research: laser-drill

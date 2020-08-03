@@ -1,0 +1,12 @@
+type:Wall
+name: Thorianium Wall
+description: Wery armored wall
+requirements: [
+  thorian/5
+  surge-alloy/2
+]
+health: 1240
+size:1
+category:defense
+research: surge-wall
+craftTime: 120

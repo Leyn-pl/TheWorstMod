@@ -1,0 +1,11 @@
+type: Conveyor
+name: Thorianium Conveyor
+description: This is in every mod
+requirements: [
+  titanium/3
+  copper/1
+  thorian/1
+]
+category: distribution
+speed: 0.12
+research: titanium-conveyor

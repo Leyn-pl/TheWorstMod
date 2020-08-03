@@ -1,0 +1,35 @@
+type: GenericSmelter
+name: Minitsunami Packer
+description: Tsunami in Bottle?
+liquidCapacity: 200
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 480
+updateEffect: smeltsmoke
+consumes: {
+  power: 4.2
+  items: {
+    items: [
+      bottle/1
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 5.0
+  }
+}
+requirements: [
+  lead/130
+  thorium/120
+  silicon/100
+  iron-ignot/80
+  thorian/400
+  surge-alloy/60
+]
+category: crafting
+research: water-extractor
+idleSound: respawning
+idleSoundVolume: 0.1
+outputItem: minitsunami/1

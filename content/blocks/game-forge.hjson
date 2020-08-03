@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Game Forge
+description: Mindustry melted.
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 480
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.3
+  items: {
+    items: [
+      my-dust/10
+      copper/10
+      lead/10
+      titanium/10
+      thorium/10
+      coal/10
+      sand/10
+    ]
+  }
+}
+requirements: [
+  lead/20
+  copper/60
+  silicon/40
+  titanium/60
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: game/1

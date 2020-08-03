@@ -1,0 +1,32 @@
+name: Iron Mines
+description: -
+loadout: basicFoundation
+startingItems: [
+  copper/250
+  lead/150
+]
+conditionWave: 10
+launchPeriod: 5
+requirements: [
+  {
+    type: ZoneWave
+    zone: groundZero
+    wave: 15
+  }
+  {
+    type: Unlock
+    block: pneumatic-drill
+  }
+  {
+    type: Unlock
+    block: solar-panel
+  }
+]
+resources: [
+  copper
+  iron
+  lead
+  coal
+  sand
+  my-dust
+]

@@ -1,0 +1,34 @@
+type: GenericSmelter
+name: Superammo Crafter
+description: BIG MINIGAN - MORE DAMAGE!
+liquidCapacity: 60
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 2.3
+  items: {
+    items: [
+      iron-ignot/1
+    ]
+  }
+  liquid: {
+    liquid: warm-gel
+    amount: 0.5
+  }
+}
+requirements: [
+  lead/70
+  thorium/70
+  silicon/90
+  iron-ignot/20
+  thorian/60
+]
+category: crafting
+research: thorium-smelter
+idleSound: bang
+idleSoundVolume: 0.4
+outputItem: ammo/1

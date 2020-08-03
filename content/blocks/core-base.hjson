@@ -1,0 +1,16 @@
+name: Core "Countrbase"
+description: STONGS
+type: CoreBlock
+itemCapacity: 124000
+breakable: true
+health: 58000
+size: 7
+category: effect
+requirements: [
+  titanium/325220
+  thorian/2325890
+  silicon/530450
+  metaglass/23050
+  surge-alloy/1250320
+]
+research: core-omega

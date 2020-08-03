@@ -1,0 +1,14 @@
+name: Micro Core
+description: Small core. Just small core
+type: CoreBlock
+itemCapacity: 800
+breakable: true
+health: 600
+size: 2
+category: effect
+requirements: [
+  titanium/2720
+  thorian/4370
+  silicon/42880
+]
+research: vault

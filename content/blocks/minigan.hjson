@@ -1,0 +1,73 @@
+type:  ItemTurret
+name: Minigan
+description: Not so fast!
+health: 700
+size: 3
+reload: 3
+targetAir:true
+targetGround:true
+range: 360
+craftTime: 60
+inaccuracy: 5
+outlineIcon:false
+rotatespeed: 8
+shots: 1
+ammo: {
+    titanium: {
+		recoil: 2
+		keepVelocity: true
+		knockback: 1
+		speed: 8
+		damage: 5
+		splashDamage:2
+		splashDamageRadius:30
+		bulletWidth: 2
+		bulletHeight: 2
+		ammoMultiplier: 10
+	}
+	thorium: {
+		recoil: 2
+		keepVelocity: true
+		knockback: 1
+		speed: 12
+		damage: 7
+		splashDamage:4
+		splashDamageRadius:30
+		bulletWidth: 2
+		bulletHeight: 2
+		ammoMultiplier: 10
+	}
+	thorian: {
+		recoil: 5
+		keepVelocity: true
+		knockback: 2
+		speed: 20
+		damage: 9
+		splashDamage:9
+		splashDamageRadius:120
+		bulletWidth: 4
+		bulletHeight: 4
+		ammoMultiplier: 10
+	}
+	ammo: {
+		recoil: 1
+		keepVelocity: true
+		knockback: 1
+		speed: 40
+		damage: 35
+		splashDamage:18
+		splashDamageRadius:80
+		bulletWidth: 4
+		bulletHeight: 4
+		ammoMultiplier: 15
+	}
+}
+requirements: [
+	titanium/110
+	thorium/ 180
+	iron-ignot/ 120
+	silicon/40
+	surge-alloy/20
+]
+category: turret
+research: cyclone

@@ -1,0 +1,25 @@
+type: GenericSmelter
+name: Iron Kiln
+description: It just melts the Iron. Nothing special
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 100
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      iron/2
+    ]
+  }
+}
+requirements: [
+  lead/60
+  silicon/40
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.4
+outputItem: iron-ignot/1

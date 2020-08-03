@@ -1,0 +1,5 @@
+type: resource
+name: BAN
+description: BAN
+cost: 500.0
+color: 000000

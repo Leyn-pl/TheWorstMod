@@ -1,0 +1,27 @@
+type:GroundUnit
+name:Sniper
+description: -
+health: 560
+speed:0.02
+attackLength:300
+range:100
+buildPower:0
+minePower:0
+itemCapacity:0
+weapon:
+{
+	name:chainsaw
+	reload:200
+	bullet:	{
+			type:BasicBulletType
+			lifetime:60
+			speed:12
+			damage:500
+			hitTiles:true
+			frontColor:ffff00
+			backColor: ffffd8
+			homingPower:0
+			homingRange:0
+			fragBullets:0
+	}
+}
